@@ -1,11 +1,11 @@
 {
-  "name": "asposethreedcloud",
-  "version": "20.5",
-  "description": "Aspose.ThreeD Cloud SDK for Node.js",
+  "name": "aspose3dcloud",
+  "version": "20.5.0",
+  "description": "Aspose.3D Cloud SDK for Node.js",
   "keywords": [
     "Aspose",
     "Cloud",
-    "ThreeD"
+    "3D"
   ],
   "author": "Aspose Nanjing Team",
   "license": "MIT",
