@@ -2,7 +2,7 @@
 
 # PHP SDK for 3D File Formats
 
-[Aspose.3D Cloud SDK for node](https://products.aspose.cloud/3d/node) empowers your PHP applications to connect with 3D document formats. The APIs let engineers read, convert, build, alter and control the substance of the [3D document formats](https://docs.aspose.cloud/3d/supported-document-formats/) in the Cloud. All without any 3D modeling and rendering software installed on the machine.
+[Aspose.3D Cloud SDK for Node.js](https://products.aspose.cloud/3d/nodejs) empowers your Node.js applications to connect with 3D document formats. The APIs let engineers read, convert, build, alter and control the substance of the [3D document formats](https://docs.aspose.cloud/3d/supported-document-formats/) in the Cloud. All without any 3D modeling and rendering software installed on the machine.
 
 ## Process 3D Objects & Files in the Cloud
 
