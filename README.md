@@ -40,6 +40,26 @@ HTML
 
 Register an account at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) to get you application information. Next, get the SDK package from [NPM Distribution](https://www.npmjs.com/package/aspose3dcloud) using the command `npm install aspose3dcloud --save`.
 
+## Convert PLY to PDF in Node.Js
+
+```js
+	// Get your ClientId and ClientSecret from https://dashboard.aspose.cloud (free registration required).
+	const threeDCloudApi = new ThreeDCloudApi("MY_CLIENT_ID", "MY_CLIENT_SECRET");
+
+	var req = new model.postConvertByFormatRequest()
+    req.name = "sample.ply";
+    req.newformat = "pdf";
+    req.newfilename = "saveasformat.pdf";
+    req.folder = "3DTest";
+    req.isOverwrite = true;
+    req.storage = "My_Storage_Name";
+	
+    return threeDCloudApi.postConvertByFormat(req)
+      .then((result) => {
+        expect(result.response.statusCode).to.equal(200);
+	});
+```
+
 ## Aspose.3D Cloud SDKs in Popular Languages
 
 | .NET | Java | PHP | Python | Ruby | Node.js | Swift | Perl | GO |
